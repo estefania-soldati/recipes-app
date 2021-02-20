@@ -1,0 +1,62 @@
+/*
+	RESET
+*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
+body{line-height: 1;}
+ol, ul{list-style: none;}
+blockquote, q{quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after{content: '';content: none;}
+table{border-collapse: collapse;border-spacing: 0;}
+
+/*
+	GENERAL STYLES
+*/
+*{ -webkit-box-sizing: border-box;box-sizing: border-box}
+ul{list-style-type: none}
+a,
+a:hover{text-decoration: none;color: inherit}
+
+.flex{display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.hide{display: none;}
+.overlay{position: absolute;width: 100%;height: 100%;left: 0;top: 0;opacity: 0.4;background: #000;}
+.title{text-align: center;font-family: 'Patrick Hand', cursive;font-size: 3em;padding: 1em;color: #d8b92c;max-width: 60%; margin: auto; line-height: 1.2em;}
+.image-container{display: grid;grid-template-columns: 25em 25em;grid-gap: 4em;justify-content: center;}
+.food-image{background-size: cover; background-repeat: no-repeat; background-position: center; padding: 9em 0em; cursor: pointer;border-radius: 2em;}
+.button{cursor: pointer;border: none;color: #d8b92c;background: #c2322de0;padding: 0.5em 4em;font-size: 0.3em;border-radius: 0.2em;letter-spacing: 0.04em;font-weight: 700;}
+
+/*HERO*/
+.hero{background-image: url(../assets/images/kitchen.jpg); background-size: cover; background-repeat: no-repeat; background-position: center; padding: 3.33em 0em;text-align: center;font-size: 3.5em;color:#d8b92c;letter-spacing: 0.04em;line-height: 1.5em;}
+.hero p{font-size: 0.7em;}
+.hero-container{position: relative;z-index: 1; font-family: 'Hind Siliguri', sans-serif;}
+
+/*CHOOSE-RECIPE*/
+.choose-recipe{background: #f7f3ee;}
+.choose-recipe .salty{background-image: url(../assets/images/salty.jpg);}
+.choose-recipe .sweet{background-image: url(../assets/images/sweet.jpg);}
+
+/*SALTY-FOOD*/
+.salty-food .meat{background-image: url(../assets/images/meat.jpg);}
+.salty-food .vegetarian{background-image: url(../assets/images/vegetarian.jpg);}
+.salty-food .select-meat{background-image: url(../assets/images/choose-meat.jpg);background-size: cover; background-repeat: no-repeat; background-position: center; padding: 14.2em 0em;text-align: center;}
+.salty-food .select-meat h4{padding: 0em 0em 1em 0em;}
+.salty-food .select-meat button{font-size: 1em;margin: 1em;}
+.salty-food .select-meat-buttonsdisplay{flex;flex-direction: column;max-width: 20%;margin: auto;}
+.salty-food .select-meat-container{position: relative;z-index: 1;}
+
+/*MEAT RECIPES*/
+.meat-recipes span{font-weight: 400;}
+.meat-recipes p{padding-top: 0.2em;}
+.meat-recipes h3{color: #d8b92c;font-size: 4em;text-align: center;margin: 1em 1em; font-family: 'Sacramento', cursive;border: 0.02em solid #d8b92c; padding: 0.5em;letter-spacing: 0.01em;}
+.meat-recipe-container{font-size: 1.4em;line-height: 1.5em;padding: 2em 0em;background: #00000021;}
+.meat-name-recipe{font-size: 1.5em;padding-bottom: 0.4em;font-family: 'Patrick Hand', cursive;}
+.meat-recipes-info{display: flex;font-family: 'Hind Siliguri', sans-serif;justify-content: center;align-items: flex-start;font-weight: 100;}
+.meat-ingredients-container{text-align: justify;max-width: 55%;padding-left: 2em;}
+#meat-recipe-item-1,
+#meat-recipe-item-3,
+#meat-recipe-item-5,
+#meat-recipe-item-7,
+#meat-recipe-item-9{background-color: white;}
+.button-meat-recipe-container{text-align: center;}
+.meat-recipe-button{font-size: 1.2em;margin: 0em 1em 3em 1em; font-weight: 200;}
+.second-button{color: #c2322de0;background: #d8b92c;}

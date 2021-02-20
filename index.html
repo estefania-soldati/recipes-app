@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="all"/>
+	<meta name="keywords" Content="">
+	<meta name="description" content="">
+	<meta name="author" content="Estefania Soldati">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<title>Recipes</title>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;700&family=Patrick+Hand&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<nav></nav>
+
+	<main>
+		<section class="hero">
+			<div class="hero-container">
+				<h1>Welcome, what are you cooking today?</h1>
+				<p>Touch the button and discover our recipes!</p>
+				<button class="hero-button button">Here we go!</button>
+			</div>
+			<div class="overlay"></div>
+		</section>
+		<section class="choose-recipe hide">
+			<h2 class="title">Would you like to eat salty or sweet food?</h2>
+			<div class="image-container">
+				<div class="salty food-image"></div>
+				<div class="sweet food-image"></div>
+			</div>
+		</section>
+		<section class="salty-food hide">
+			<div class="choose-type-of-food">
+				<h3 class="title">Do you prefer to eat something vegetarian or something with some type of meat?</h3>
+				<div class="image-container">
+					<div class="meat food-image"></div>
+					<div class="vegetarian food-image"></div>
+				</div>
+			</div>
+			<div class="select-meat hide">
+				<div class="select-meat-container">
+					<h4 class="title">What kind of meat do you prefer?</h4>
+					<div class="select-meat-buttons">
+						<button class="button meat-button">Cow meat</button>
+						<button class="button pork-button">Pork meat</button>
+						<button class="button chicken-button">Chicken</button>
+					</div>
+				</div>
+				<div class="overlay"></div>
+			</div>
+		</section>
+		<section id="meat-recipes" class="meat-recipes hide">
+			<h3>Recipes with meat</h3>
+	<!--<div class="meat-recipe-container id="meat-recipe-item-0>
+			
+			<div class="meat-recipes-info">
+				<div class="meat-photo-recipe">
+					<img>
+				</div>
+				<div class="meat-ingredients-container">
+					<h4 class="meat-name-recipe"></h4>
+					<p class="meat-ingredients"></p>
+					<p class="meat-calories"></p>
+					<p class="meat-time"></p>
+				</div>
+			</div>
+		</div> -->
+		</section>
+		<section class="sweet-food hide">
+			<h3>Hello sweet food</h3>
+		</section>
+		<div class="button-meat-recipe-container hide">
+			<button class="button meat-recipe-button">Look for other recipes</button>
+			<button class="button meat-recipe-button second-button">Back to the start</button>
+		</div>
+	</main>
+
+	<footer></footer>
+
+	<!-- jQuery V3.3.1 -->
+	<script src="./scripts/jQuery-V3.3.1.min.js"></script>
+	<!-- Custom-Scripts -->
+	<script src="./scripts/scripts.js"></script>
+</body>
+</html>
